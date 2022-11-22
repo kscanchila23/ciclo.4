@@ -1,0 +1,165 @@
+import { useState } from 'react'
+import reactLogo from './assets/react.svg'
+import './App.css'
+
+function App() {
+  const [count, setCount] = useState(0)
+
+  return (
+    
+<div>
+  
+ <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+
+<div class="container-fluid">
+  <a class="navbar-brand" href="#">InstaYA</a>
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="#">Iniciar sesion</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Envios</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Sobre nosotros
+        </a>
+        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <li><a class="dropdown-item" href="#">Action</a></li>
+          <li><a class="dropdown-item" href="#">Another action</a></li>
+          <li><hr class="dropdown-divider"/></li>
+          <li><a class="dropdown-item" href="#">Something else here</a></li>
+        </ul>
+      </li>
+      
+    </ul>
+    {/*<form class="d-flex">
+      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
+      <button class="btn btn-outline-success" type="submit">Search</button>
+  </form>*/}
+    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+    <li class="nav-item">
+        <a class="nav-link" href="#">Home</a>
+        
+    </li>
+    </ul>
+    
+  </div>
+</div>
+
+</nav>
+{/*<main class="iniciar sesion">
+
+  <form>
+    
+    <h1 class="h3 mb-3 fw-normal">Iniciar sesion</h1>
+
+    <div class="form-floating">
+      <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com"/>
+      <label for="floatingInput">Correo electronico</label>
+    </div>
+    <div class="form-floating">
+      <input type="password" class="form-control" id="floatingPassword" placeholder="Password"/>
+      <label for="floatingPassword">Contraseña</label>
+    </div>
+
+    <div class="checkbox mb-3">
+      <label>
+        <input type="checkbox" value="remember-me"/> Recordar contraseña
+      </label>
+    </div>
+    <button class="w-100 btn btn-lg btn-primary" type="submit">Acceder</button>
+    
+  </form>
+</main>*/}
+
+{/*<main class="registro">
+  
+  <form>
+    
+    <h1 class="h3 mb-3 fw-normal">Registro</h1>
+
+    <div class="form-floating">
+      <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com"/>
+      <label for="floatingInput">Nombre</label>
+    </div>
+    <div class="form-floating">
+      <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com"/>
+      <label for="floatingInput">Usuario</label>
+    </div>
+    <div class="form-floating">
+      <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com"/>
+      <label for="floatingInput">Contraseña</label>
+    </div>
+    <div class="form-floating">
+      <input type="password" class="form-control" id="floatingPassword" placeholder="Password"/>
+      <label for="floatingPassword">Correo</label>
+    </div>
+
+    
+    <button class="w-100 btn btn-lg btn-primary" type="submit">Registrarse</button>
+    
+  </form>
+</main>*/}
+
+<nav className='tabla'>
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Numero</th>
+      <th scope="col">Fecha</th>
+      <th scope="col">Ciudad</th>
+      <th scope="col">Direccion</th>
+      <th scope="col">Estado</th>
+               
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th scope="row">4</th>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <th scope="row">5</th>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+</nav>
+
+  
+
+
+</div>
+
+
+  )
+}
+
+export default App
